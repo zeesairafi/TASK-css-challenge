@@ -1,9 +1,30 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: visible;
+  overflow: scroll;
+  background-color: yellow;
 }
 .head {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: orange;
+ color: white;
+ text-align: center;
 }
 
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content{
+  padding-top: 102%;
+}
+.my-body{
+  
+}
 .row {
   /* .row is used in ./index.js not in the html filee */
 }

@@ -1,0 +1,12 @@
+body{
+    background-color: #1b0c2c;
+    text-align: center;
+}
+.move-image{
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: top;
+}
